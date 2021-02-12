@@ -21,8 +21,8 @@ Steps to install and run Github.
 
 ## Usage 
 
-https://ofarrell23.github.io/Week-1-Homework/
-![alt text](./assets/images/Homework-Image.png)
+https://ofarrell23.github.io/Week-2-Homework/#resume
+![alt text](./assets/images/Bio.png)
 
 ## Credits
 
