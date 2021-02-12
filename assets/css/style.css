@@ -1,4 +1,8 @@
-
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 body {
   margin: 0;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -12,6 +16,7 @@ body {
   }
   
 header {
+  width: 100%;
   background-color: rgb(46, 44, 44);
   height: 175px;
 }
@@ -67,14 +72,16 @@ nav a:hover {
 #imagine {  
   position: absolute;
   text-align: right;
-  color: rgb(116, 108, 108);
+  color: rgb(187, 181, 181);
   padding-left: 20px;
   padding-right: 5px;
   z-index: 1;
   right: 0px;
   top: 180px;
   margin-right: 20px;
+  font-size: 40pt;
 }
+
 
 .banner {
   position: relative;
@@ -139,4 +146,21 @@ footer {
     float: none;
     width: 100%;
   }
+
+  @media screen and (min-width: 400px) {
+    .nav {
+      font-size: 5pt;
+    }
+
+  @media screen and (min-width: 400px) {
+    .row {
+      font-size: 6px;
+    }
+
+  @media screen and (min-width: 400px) {
+    .side {
+      font-size: 6px;
+    }
+
+    
 }
